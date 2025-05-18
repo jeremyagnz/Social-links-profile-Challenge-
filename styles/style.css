@@ -26,7 +26,7 @@ body {
 .main-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 90vh;
   justify-content: center;
 }
 
@@ -100,7 +100,6 @@ body {
 }
 
 footer {
-  background-color: var(--gray-800);
   color: white;
   text-align: center;
   padding: 1rem;
@@ -118,5 +117,9 @@ footer a {
     margin: 10rem auto;
      max-width: 375px;
      height: 700px;
+  }
+
+  footer{
+    background-color: var(--gray-800);
   }
 }
