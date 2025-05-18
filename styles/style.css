@@ -33,7 +33,7 @@ body {
 .container {
   width: 100%;
   max-width: 375px;
-  margin: 5rem auto;
+  margin:  auto;
   border-radius: 10px;
   background-color: var(--gray-800);
   display: flex;
